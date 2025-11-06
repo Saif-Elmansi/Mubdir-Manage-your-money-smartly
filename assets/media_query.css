@@ -1,0 +1,81 @@
+@media screen and (max-width: 1280px) {
+  .header-aside .left-header h1 {
+    display: none;
+  }
+  .header-aside .left-header p {
+    display: none;
+  }
+  .aside-right .last-header h3 {
+    display: none;
+  }
+  .action span {
+    display: none;
+  }
+  .aside-right .home .btn p {
+    display: none;
+  }
+  .aside-right {
+    width: 5%;
+  }
+  .header-aside .right-header {
+    background-color: #2b52f2;
+    background-image: linear-gradient(blue, #3f38de);
+    border-radius: 1.5rem;
+    padding: 1.4rem;
+    margin-left: 0.5rem;
+    margin-top: 3rem;
+  }
+  .header-aside .right-header i {
+    font-size: 1.4rem;
+    color: white;
+  }
+  main {
+    width: 95%;
+    position: relative;
+    right: 5%;
+  }
+
+  .content-table {
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 1024px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .graph-card-2 {
+    margin-top: 0rem;
+  }
+  .aside-right {
+    display: none;
+  }
+  main {
+    width: 100%;
+    position: relative;
+    right: 0%;
+  }
+  .nav1 .content {
+    margin-top: 4rem;
+  }
+  .content-table {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  main .nav1 .nav-1-r .title {
+    display: none;
+  }
+  main .nav1 .nav-1-r .padge-online {
+    display: none;
+  }
+  .content-table {
+    overflow-x: scroll;
+  }
+}
