@@ -68,17 +68,6 @@
 }
 
 @media screen and (max-width: 594px) {
-  main .nav1 .nav-1-r .title {
-    display: none;
-  }
-  main .nav1 .nav-1-r .padge-online {
-    display: none;
-  }
-  .content-table {
-    overflow-x: scroll;
-  }
-}
-@media screen and (max-width: 500px) {
   .nav1 .content .nav-1-l .btn-search,
   .btn-pill {
     display: none;
@@ -87,14 +76,12 @@
     column-gap: 2rem;
   }
   .activty .first-activ .sec-card .card-1 > span {
-
     position: absolute;
     left: 5.2rem;
   }
   .activty .first-activ .sec-card .card-1 .details p {
     white-space: wrap;
   }
-
 
   main .nav1 .nav-1-r .title {
     display: none;
